@@ -12,6 +12,7 @@
 		D64DDE8F2C04CCD1007A311A /* RuleOfBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE8E2C04CCD1007A311A /* RuleOfBigNumber.swift */; };
 		D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448A42C0615E300437959 /* NumberCardGame.swift */; };
 		D68448A72C06183100437959 /* UntilOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448A62C06183100437959 /* UntilOne.swift */; };
+		D68448AC2C06215C00437959 /* LRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AB2C06215C00437959 /* LRUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		D64DDE8E2C04CCD1007A311A /* RuleOfBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleOfBigNumber.swift; sourceTree = "<group>"; };
 		D68448A42C0615E300437959 /* NumberCardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCardGame.swift; sourceTree = "<group>"; };
 		D68448A62C06183100437959 /* UntilOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntilOne.swift; sourceTree = "<group>"; };
+		D68448AB2C06215C00437959 /* LRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,8 @@
 		D64DDE832C04CAB8007A311A /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
-				D68448A92C061D2500437959 /* ThisIsACodingTest */,
 				D64DDE842C04CAB8007A311A /* main.swift */,
+				D68448A92C061D2500437959 /* ThisIsACodingTest */,
 			);
 			path = ProblemSolving;
 			sourceTree = "<group>";
@@ -85,9 +87,18 @@
 		D68448A92C061D2500437959 /* ThisIsACodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				D68448AA2C06213A00437959 /* implementation */,
 				D64DDE8D2C04CCA4007A311A /* greedy */,
 			);
 			path = ThisIsACodingTest;
+			sourceTree = "<group>";
+		};
+		D68448AA2C06213A00437959 /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				D68448AB2C06215C00437959 /* LRUD.swift */,
+			);
+			path = implementation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68448AC2C06215C00437959 /* LRUD.swift in Sources */,
 				D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */,
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
 				D64DDE8F2C04CCD1007A311A /* RuleOfBigNumber.swift in Sources */,
