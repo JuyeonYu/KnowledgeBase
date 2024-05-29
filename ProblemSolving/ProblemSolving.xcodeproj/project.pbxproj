@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6031C522C06AB51005A8947 /* CanPlaceFlower.swift */; };
 		D64DDE852C04CAB8007A311A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE842C04CAB8007A311A /* main.swift */; };
 		D64DDE8C2C04CAE5007A311A /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE8B2C04CAE5007A311A /* Changes.swift */; };
 		D64DDE8F2C04CCD1007A311A /* RuleOfBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE8E2C04CCD1007A311A /* RuleOfBigNumber.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D6031C522C06AB51005A8947 /* CanPlaceFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPlaceFlower.swift; sourceTree = "<group>"; };
 		D64DDE812C04CAB8007A311A /* ProblemSolving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSolving; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64DDE842C04CAB8007A311A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D64DDE8B2C04CAE5007A311A /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				D64DDE8B2C04CAE5007A311A /* Changes.swift */,
+				D6031C522C06AB51005A8947 /* CanPlaceFlower.swift */,
 				D64DDE8E2C04CCD1007A311A /* RuleOfBigNumber.swift */,
 				D68448A42C0615E300437959 /* NumberCardGame.swift */,
 				D68448A62C06183100437959 /* UntilOne.swift */,
@@ -162,6 +165,7 @@
 				D68448AC2C06215C00437959 /* LRUD.swift in Sources */,
 				D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */,
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
+				D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */,
 				D64DDE8F2C04CCD1007A311A /* RuleOfBigNumber.swift in Sources */,
 				D64DDE8C2C04CAE5007A311A /* Changes.swift in Sources */,
 				D68448A72C06183100437959 /* UntilOne.swift in Sources */,
