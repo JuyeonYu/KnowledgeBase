@@ -7,8 +7,6 @@
 
 import Foundation
 
-// https://leetcode.com/problems/can-place-flowers/description/
-
 struct CanPlaceFlower {
     func solution(_ flowerbed: [Int], _ n: Int) -> Bool {
         var r = 0
