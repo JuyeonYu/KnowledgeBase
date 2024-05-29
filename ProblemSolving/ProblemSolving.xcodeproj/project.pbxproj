@@ -23,6 +23,7 @@
 		D68448AC2C06215C00437959 /* LRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AB2C06215C00437959 /* LRUD.swift */; };
 		D68448AE2C06269700437959 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AD2C06269700437959 /* Time.swift */; };
 		D68448B02C07683500437959 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AF2C07683500437959 /* Knight.swift */; };
+<<<<<<< HEAD
 		D68448B62C15D0EA00437959 /* Ice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448B52C15D0EA00437959 /* Ice.swift */; };
 		D68448B82C15E1AB00437959 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448B72C15E1AB00437959 /* Maze.swift */; };
 		D68448BB2C15EBA700437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BA2C15EBA700437959 /* Queue.swift */; };
@@ -33,6 +34,8 @@
 		D68448C72C19DD8700437959 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C62C19DD8700437959 /* BinarySearch.swift */; };
 		D68448C92C19E12100437959 /* FindingParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C82C19E12100437959 /* FindingParts.swift */; };
 		D68448CB2C19E47500437959 /* CuttingRiceCake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448CA2C19E47500437959 /* CuttingRiceCake.swift */; };
+=======
+>>>>>>> e5db87d (implementation - 이코테 Part2 왕실의 나이트)
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +68,7 @@
 		D68448AB2C06215C00437959 /* LRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUD.swift; sourceTree = "<group>"; };
 		D68448AD2C06269700437959 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		D68448AF2C07683500437959 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		D68448B52C15D0EA00437959 /* Ice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice.swift; sourceTree = "<group>"; };
 		D68448B72C15E1AB00437959 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		D68448BA2C15EBA700437959 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		D68448C62C19DD8700437959 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		D68448C82C19E12100437959 /* FindingParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingParts.swift; sourceTree = "<group>"; };
 		D68448CA2C19E47500437959 /* CuttingRiceCake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuttingRiceCake.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> e5db87d (implementation - 이코테 Part2 왕실의 나이트)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +290,7 @@
 				D68448BE2C15F1B200437959 /* SelectionSort.swift in Sources */,
 				D68448B82C15E1AB00437959 /* Maze.swift in Sources */,
 				D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */,
+<<<<<<< HEAD
 				D68448BB2C15EBA700437959 /* Queue.swift in Sources */,
 				D68448AE2C06269700437959 /* Time.swift in Sources */,
 				D68448B62C15D0EA00437959 /* Ice.swift in Sources */,
@@ -292,6 +299,9 @@
 				D6031C912C1682E0005A8947 /* MaxDepth.swift in Sources */,
 				D68448C92C19E12100437959 /* FindingParts.swift in Sources */,
 				D68448C72C19DD8700437959 /* BinarySearch.swift in Sources */,
+=======
+				D68448AE2C06269700437959 /* Time.swift in Sources */,
+>>>>>>> e5db87d (implementation - 이코테 Part2 왕실의 나이트)
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
 				D68448B02C07683500437959 /* Knight.swift in Sources */,
 				D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */,
