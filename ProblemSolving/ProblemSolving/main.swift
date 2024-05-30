@@ -20,3 +20,20 @@ print("5 x 5레서 RRRUDD 하면 현재 위치는 ", LRUD().solution(m: 5, footP
 print("5시 59분 59초까지 3은 ", Time().solution(n: 5))
 print("[1,0,0,0,1,0,0] 꽃밭에 2개는 ", CanPlaceFlower().solution([1,0,0,0,1,0,0], 2))
 print("a1에 서있는 나이트가 이동할 수 있는 경우의 수는 ", Knight().solution(position: "a1"))
+
+let graph = [
+    [], // 0
+    [2,3], // 1
+    [1,4,5], // 2
+    [1,6,7], // 3
+    [2], // 4
+    [2], // 5
+    [3], // 6
+    [3,8], // 7
+    [7] // 8
+]
+
+print("인접 리스트\n\(graph)를\nDFS로 방문하면 ")
+Search().DFS(list: graph, start: 1, visited: Array(repeating: false, count: graph.count), completion: {
+    print($0, terminator: " -> ")
+})
