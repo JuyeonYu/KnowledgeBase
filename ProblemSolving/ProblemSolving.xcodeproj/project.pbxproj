@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6031C522C06AB51005A8947 /* CanPlaceFlower.swift */; };
+		D6031C5B2C07F47A005A8947 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6031C5A2C07F47A005A8947 /* Search.swift */; };
 		D64DDE852C04CAB8007A311A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE842C04CAB8007A311A /* main.swift */; };
 		D64DDE8C2C04CAE5007A311A /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE8B2C04CAE5007A311A /* Changes.swift */; };
 		D64DDE8F2C04CCD1007A311A /* RuleOfBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64DDE8E2C04CCD1007A311A /* RuleOfBigNumber.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		D6031C522C06AB51005A8947 /* CanPlaceFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPlaceFlower.swift; sourceTree = "<group>"; };
+		D6031C5A2C07F47A005A8947 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		D64DDE812C04CAB8007A311A /* ProblemSolving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSolving; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64DDE842C04CAB8007A311A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D64DDE8B2C04CAE5007A311A /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6031C572C07F452005A8947 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				D6031C5A2C07F47A005A8947 /* Search.swift */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
 		D64DDE782C04CAB8007A311A = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		D68448A92C061D2500437959 /* ThisIsACodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				D6031C572C07F452005A8947 /* search */,
 				D68448AA2C06213A00437959 /* implementation */,
 				D64DDE8D2C04CCA4007A311A /* greedy */,
 			);
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6031C5B2C07F47A005A8947 /* Search.swift in Sources */,
 				D68448AC2C06215C00437959 /* LRUD.swift in Sources */,
 				D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */,
 				D68448AE2C06269700437959 /* Time.swift in Sources */,
