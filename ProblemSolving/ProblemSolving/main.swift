@@ -33,7 +33,23 @@ let graph = [
     [7] // 8
 ]
 
+let matrix = [
+    [0, 1, 1, 0, 0, 0, 0, 0],
+    [1, 0, 0, 1, 1, 0, 0, 0],
+    [1, 0, 0, 0, 0, 1, 1, 0],
+    [0, 1, 0, 0, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0, 0, 1],
+    [0, 0, 0, 0, 0, 0, 1, 0]
+]
+
 print("인접 리스트\n\(graph)를\nDFS로 방문하면 ")
 Search().DFS(list: graph, start: 1, visited: Array(repeating: false, count: graph.count), completion: {
+    print($0, terminator: " -> ")
+})
+print("")
+print("인접 행렬\n\(matrix)를\nDFS로 방문하면 ")
+Search().DFS(matrix: matrix, start: 0, visited: Array(repeating: false, count: matrix.count), completion: {
     print($0, terminator: " -> ")
 })

@@ -25,5 +25,17 @@ struct Search {
             }
         }
     }
+    
+    func DFS(matrix: [[Int]], start: Int, visited: [Bool], completion: (Int) -> Void) {
+        var visited = visited
+        visited[start] = true
+        completion(start + 1) // 인접 리스트의 경우 0번째 배열을 비워둔채로 사용하기 때문에 +1을 해줄 필요가 없었음
+        
+        for i in 0 ..< matrix.count {
+            if matrix[start][i] == 1 && !visited[i] {
+                DFS(matrix: matrix, start: i, visited: visited, completion: completion)
+            }
+        }
+    }
 }
 
