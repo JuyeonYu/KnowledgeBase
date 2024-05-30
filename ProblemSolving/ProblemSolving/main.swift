@@ -44,12 +44,14 @@ let matrix = [
     [0, 0, 0, 0, 0, 0, 1, 0]
 ]
 
+var listDFSVisited = Array(repeating: false, count: graph.count)
 print("인접 리스트\n\(graph)를\nDFS로 방문하면 ")
-Search().DFS(list: graph, start: 1, visited: Array(repeating: false, count: graph.count), completion: {
+Search().DFS(list: graph, start: 1, visited: &listDFSVisited, completion: {
     print($0, terminator: " -> ")
 })
 print("")
+var matrixDFSVisited = Array(repeating: false, count: matrix.count)
 print("인접 행렬\n\(matrix)를\nDFS로 방문하면 ")
-Search().DFS(matrix: matrix, start: 0, visited: Array(repeating: false, count: matrix.count), completion: {
+Search().DFS(matrix: matrix, start: 0, visited: &matrixDFSVisited, completion: {
     print($0, terminator: " -> ")
 })
