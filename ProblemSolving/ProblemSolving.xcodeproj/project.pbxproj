@@ -17,6 +17,7 @@
 		D68448AC2C06215C00437959 /* LRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AB2C06215C00437959 /* LRUD.swift */; };
 		D68448AE2C06269700437959 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AD2C06269700437959 /* Time.swift */; };
 		D68448B02C07683500437959 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448AF2C07683500437959 /* Knight.swift */; };
+		D68448B62C15D0EA00437959 /* Ice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448B52C15D0EA00437959 /* Ice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		D68448AB2C06215C00437959 /* LRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUD.swift; sourceTree = "<group>"; };
 		D68448AD2C06269700437959 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		D68448AF2C07683500437959 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		D68448B52C15D0EA00437959 /* Ice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				D6031C5A2C07F47A005A8947 /* Search.swift */,
+				D68448B52C15D0EA00437959 /* Ice.swift */,
 			);
 			path = search;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				D68448AC2C06215C00437959 /* LRUD.swift in Sources */,
 				D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */,
 				D68448AE2C06269700437959 /* Time.swift in Sources */,
+				D68448B62C15D0EA00437959 /* Ice.swift in Sources */,
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
 				D68448B02C07683500437959 /* Knight.swift in Sources */,
 				D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */,
