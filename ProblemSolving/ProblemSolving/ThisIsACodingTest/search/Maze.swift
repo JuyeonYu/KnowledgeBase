@@ -15,13 +15,13 @@ struct Maze {
     let dx = [-1, 1, 0, 0]
     let dy = [0, 0, -1, 1]
     
-    var q: [(Int, Int)] = []
+    var q: DoubleStackQueue<(Int, Int)> = DoubleStackQueue()
     
     func bfs(x: Int, y: Int) -> Int {
-      q.append((x, y))
+      q.enqueue((x, y))
       
       while !q.isEmpty {
-        let point = q.removeFirst()
+        guard let point = q.dequeue() else { break }
         
         
         for i in 0 ..< 4 {
@@ -33,7 +33,7 @@ struct Maze {
           }
           
           maze[nx][ny] = maze[point.0][point.1] + 1
-          q.append((nx, ny))
+          q.enqueue((nx, ny))
         }
         
       }
