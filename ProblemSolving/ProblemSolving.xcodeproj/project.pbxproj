@@ -22,6 +22,7 @@
 		D68448BB2C15EBA700437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BA2C15EBA700437959 /* Queue.swift */; };
 		D68448BE2C15F1B200437959 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BD2C15F1B200437959 /* SelectionSort.swift */; };
 		D68448C02C15F25700437959 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BF2C15F25700437959 /* BubbleSort.swift */; };
+		D68448C22C1602C800437959 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C12C1602C800437959 /* InsertionSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		D68448BA2C15EBA700437959 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D68448BD2C15F1B200437959 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		D68448BF2C15F25700437959 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		D68448C12C1602C800437959 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				D68448BD2C15F1B200437959 /* SelectionSort.swift */,
 				D68448BF2C15F25700437959 /* BubbleSort.swift */,
+				D68448C12C1602C800437959 /* InsertionSort.swift */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6031C5B2C07F47A005A8947 /* Search.swift in Sources */,
+				D68448C22C1602C800437959 /* InsertionSort.swift in Sources */,
 				D68448AC2C06215C00437959 /* LRUD.swift in Sources */,
 				D68448C02C15F25700437959 /* BubbleSort.swift in Sources */,
 				D68448BE2C15F1B200437959 /* SelectionSort.swift in Sources */,
