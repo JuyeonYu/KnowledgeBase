@@ -55,3 +55,7 @@ print("인접 행렬\n\(matrix)를\nDFS로 방문하면 ")
 Search().DFS(matrix: matrix, start: 0, visited: &matrixDFSVisited, completion: {
     print($0, terminator: " -> ")
 })
+
+print("")
+
+print("얼음틀 [[0,0,1,1,0], [0,0,0,1,1], [1,1,1,1,1], [0,0,0,0,0]]에서 얼음 덩이는 \(Ice().solution(tray: [[0,0,1,1,0], [0,0,0,1,1], [1,1,1,1,1], [0,0,0,0,0]], maxX: 4, maxY: 5))")
