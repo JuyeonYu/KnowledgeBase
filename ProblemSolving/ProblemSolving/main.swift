@@ -55,3 +55,11 @@ print("인접 행렬\n\(matrix)를\nDFS로 방문하면 ")
 Search().DFS(matrix: matrix, start: 0, visited: &matrixDFSVisited, completion: {
     print($0, terminator: " -> ")
 })
+
+print("")
+
+print("얼음틀 [[0,0,1,1,0], [0,0,0,1,1], [1,1,1,1,1], [0,0,0,0,0]]에서 얼음 덩이는 \(Ice().solution(tray: [[0,0,1,1,0], [0,0,0,1,1], [1,1,1,1,1], [0,0,0,0,0]], maxX: 4, maxY: 5))")
+print("미로 탈출 퇴단 경로는 ", Maze().solution(maze: [[1,0,1,0,1,0], [1,1,1,1,1,1], [0,0,0,0,0,1], [1,1,1,1,1,1,], [1,1,1,1,1,1,]], maxX: 5, maxY: 6))
+print("버블 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", BubbleSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
+print("선택 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", SelectionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
+print("삽입 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", InsertionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
