@@ -20,6 +20,7 @@
 		D68448B62C15D0EA00437959 /* Ice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448B52C15D0EA00437959 /* Ice.swift */; };
 		D68448B82C15E1AB00437959 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448B72C15E1AB00437959 /* Maze.swift */; };
 		D68448BB2C15EBA700437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BA2C15EBA700437959 /* Queue.swift */; };
+		D68448BE2C15F1B200437959 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BD2C15F1B200437959 /* SelectionSort.swift */; };
 		D68448C02C15F25700437959 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BF2C15F25700437959 /* BubbleSort.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		D68448B52C15D0EA00437959 /* Ice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice.swift; sourceTree = "<group>"; };
 		D68448B72C15E1AB00437959 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		D68448BA2C15EBA700437959 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		D68448BD2C15F1B200437959 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		D68448BF2C15F25700437959 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 		D68448BC2C15F1A200437959 /* sort */ = {
 			isa = PBXGroup;
 			children = (
+				D68448BD2C15F1B200437959 /* SelectionSort.swift */,
 				D68448BF2C15F25700437959 /* BubbleSort.swift */,
 			);
 			path = sort;
@@ -210,6 +213,7 @@
 				D6031C5B2C07F47A005A8947 /* Search.swift in Sources */,
 				D68448AC2C06215C00437959 /* LRUD.swift in Sources */,
 				D68448C02C15F25700437959 /* BubbleSort.swift in Sources */,
+				D68448BE2C15F1B200437959 /* SelectionSort.swift in Sources */,
 				D68448B82C15E1AB00437959 /* Maze.swift in Sources */,
 				D68448A52C0615E300437959 /* NumberCardGame.swift in Sources */,
 				D68448BB2C15EBA700437959 /* Queue.swift in Sources */,
