@@ -36,6 +36,6 @@ struct Search {
                 DFS(matrix: matrix, start: i, visited: visited, completion: completion)
             }
         }
-    }
+    }  
 }
 
