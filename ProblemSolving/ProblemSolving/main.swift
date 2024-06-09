@@ -59,3 +59,4 @@ Search().DFS(matrix: matrix, start: 0, visited: &matrixDFSVisited, completion: {
 print("")
 
 print("얼음틀 [[0,0,1,1,0], [0,0,0,1,1], [1,1,1,1,1], [0,0,0,0,0]]에서 얼음 덩이는 \(Ice().solution(tray: [[0,0,1,1,0], [0,0,0,1,1], [1,1,1,1,1], [0,0,0,0,0]], maxX: 4, maxY: 5))")
+print("미로 탈출 퇴단 경로는 ", Maze().solution(maze: [[1,0,1,0,1,0], [1,1,1,1,1,1], [0,0,0,0,0,1], [1,1,1,1,1,1,], [1,1,1,1,1,1,]], maxX: 5, maxY: 6))
