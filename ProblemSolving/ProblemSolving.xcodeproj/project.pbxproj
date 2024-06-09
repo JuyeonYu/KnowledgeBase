@@ -71,11 +71,27 @@
 		D6031C572C07F452005A8947 /* search */ = {
 			isa = PBXGroup;
 			children = (
-				D6031C5A2C07F47A005A8947 /* Search.swift */,
-				D68448B52C15D0EA00437959 /* Ice.swift */,
-				D68448B72C15E1AB00437959 /* Maze.swift */,
+				D6031C882C16729B005A8947 /* BFS */,
+				D6031C892C1672A1005A8947 /* DFS */,
 			);
 			path = search;
+			sourceTree = "<group>";
+		};
+		D6031C882C16729B005A8947 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				D68448B72C15E1AB00437959 /* Maze.swift */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		D6031C892C1672A1005A8947 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				D6031C5A2C07F47A005A8947 /* Search.swift */,
+				D68448B52C15D0EA00437959 /* Ice.swift */,
+			);
+			path = DFS;
 			sourceTree = "<group>";
 		};
 		D64DDE782C04CAB8007A311A = {
