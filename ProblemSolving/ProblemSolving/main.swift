@@ -63,3 +63,17 @@ print("미로 탈출 퇴단 경로는 ", Maze().solution(maze: [[1,0,1,0,1,0], [
 print("버블 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", BubbleSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("선택 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", SelectionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("삽입 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", InsertionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
+
+
+let p = TreeNode()
+p.val = 1
+p.left = .init(2)
+//p.right = .init(3)
+
+let q = TreeNode()
+q.val = 1
+q.right = .init(2)
+//q.right = .init(3)
+
+print("같은 트리일까? ", SameTree().solution(p, q))
+print("같은 트리일까2? ", SameTree().solution2(p, q))
