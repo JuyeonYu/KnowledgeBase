@@ -65,15 +65,36 @@ print("선택 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", SelectionSort().sort(data
 print("삽입 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", InsertionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 
 
-let p = TreeNode()
-p.val = 1
-p.left = .init(2)
-//p.right = .init(3)
 
-let q = TreeNode()
-q.val = 1
-q.right = .init(2)
-//q.right = .init(3)
+    let p = TreeNode()
+    p.val = 1
+    p.left = .init(2)
+    //p.right = .init(3)
 
-print("같은 트리일까? ", SameTree().solution(p, q))
-print("같은 트리일까2? ", SameTree().solution2(p, q))
+    let q = TreeNode()
+    q.val = 1
+    q.right = .init(2)
+    //q.right = .init(3)
+
+    print("같은 트리일까? ", SameTree().solution(p, q))
+    print("같은 트리일까2? ", SameTree().solution2(p, q))
+
+    print("대칭 트리일까?", IsSymmetric().solution(p))
+
+
+
+
+let root: TreeNode = .init(3)
+    root.left = .init(9)
+
+    let p2: TreeNode = TreeNode(20)
+    root.right = p2
+
+    p2.left = .init(15)
+    p2.right = .init(7)
+
+    print("이 트리의 최대 깊이는? ", MaxDepth().solution2(root))
+
+    
+
+
