@@ -77,3 +77,5 @@ q.right = .init(2)
 
 print("같은 트리일까? ", SameTree().solution(p, q))
 print("같은 트리일까2? ", SameTree().solution2(p, q))
+
+print("대칭 트리일까?", IsSymmetric().solution(p))
