@@ -63,6 +63,7 @@ print("미로 탈출 퇴단 경로는 ", Maze().solution(maze: [[1,0,1,0,1,0], [
 print("버블 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", BubbleSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("선택 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", SelectionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("삽입 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", InsertionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
+print("퀵 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", QuickSort().sort(list: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 
 
 
