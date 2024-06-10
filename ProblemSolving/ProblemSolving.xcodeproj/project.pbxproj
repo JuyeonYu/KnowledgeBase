@@ -27,6 +27,7 @@
 		D68448BE2C15F1B200437959 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BD2C15F1B200437959 /* SelectionSort.swift */; };
 		D68448C02C15F25700437959 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BF2C15F25700437959 /* BubbleSort.swift */; };
 		D68448C22C1602C800437959 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C12C1602C800437959 /* InsertionSort.swift */; };
+		D68448C42C1749AE00437959 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C32C1749AE00437959 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		D68448BD2C15F1B200437959 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		D68448BF2C15F25700437959 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		D68448C12C1602C800437959 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		D68448C32C1749AE00437959 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				D68448BD2C15F1B200437959 /* SelectionSort.swift */,
 				D68448BF2C15F25700437959 /* BubbleSort.swift */,
 				D68448C12C1602C800437959 /* InsertionSort.swift */,
+				D68448C32C1749AE00437959 /* QuickSort.swift */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
 				D68448B02C07683500437959 /* Knight.swift in Sources */,
 				D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */,
+				D68448C42C1749AE00437959 /* QuickSort.swift in Sources */,
 				D6031C8F2C168165005A8947 /* IsSymmetric.swift in Sources */,
 				D64DDE8F2C04CCD1007A311A /* RuleOfBigNumber.swift in Sources */,
 				D64DDE8C2C04CAE5007A311A /* Changes.swift in Sources */,
