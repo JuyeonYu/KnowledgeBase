@@ -12,9 +12,27 @@ import Foundation
 struct QuickSort {
   func sort(list: [Int]) -> [Int] {
     guard let pivot = list.first, list.count > 1 else { return list }
-    let left = list.filter { $0 < pivot }
-    let middle = list.filter { $0 == pivot }
-    let right = list.filter { $0 > pivot }
+      
+//    2n
+//    let left = list.filter { $0 < pivot }
+//    let middle = list.filter { $0 == pivot }
+//    let right = list.filter { $0 > pivot }
+      
+    // n
+      var left: [Int] = []
+      var middle: [Int] = []
+      var right: [Int] = []
+      
+      for i in list {
+          if i < pivot {
+              left.append(i)
+          } else if i == pivot {
+              middle.append(i)
+          } else {
+              right.append(i)
+          }
+      }
+      
     return sort(list: left) + middle + sort(list: right)
   }
 }
