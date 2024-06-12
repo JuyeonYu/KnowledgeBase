@@ -64,6 +64,7 @@ print("버블 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", BubbleSort().sort(data: [
 print("선택 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", SelectionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("삽입 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", InsertionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("퀵 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", QuickSort().sort(list: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
+print("계수 정렬 [3, 5, 7, 3, 1, 1, 2, 9, 6] -> ", CountingSort().sort([3, 5, 7, 3, 1, 1, 2, 9, 6]))
 
 var mergeSortedArray1 = [1, 2, 3, 0, 0, 0]
 print("[1, 2, 3, 0, 0, 0]의 앞 3개와 [2, 3, 5]의 앞 3개를 합치고 정렬하면 ", MergeSortedArray().merge(&mergeSortedArray1, 3, [2, 3, 5], 3))
