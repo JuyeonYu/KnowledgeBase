@@ -31,6 +31,7 @@
 		D68448C22C1602C800437959 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C12C1602C800437959 /* InsertionSort.swift */; };
 		D68448C42C1749AE00437959 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C32C1749AE00437959 /* QuickSort.swift */; };
 		D68448C72C19DD8700437959 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C62C19DD8700437959 /* BinarySearch.swift */; };
+		D68448C92C19E12100437959 /* FindingParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C82C19E12100437959 /* FindingParts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		D68448C12C1602C800437959 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		D68448C32C1749AE00437959 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		D68448C62C19DD8700437959 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		D68448C82C19E12100437959 /* FindingParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingParts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				D68448C62C19DD8700437959 /* BinarySearch.swift */,
+				D68448C82C19E12100437959 /* FindingParts.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				D6031C8B2C167308005A8947 /* SameTree.swift in Sources */,
 				D6031C8D2C167A9F005A8947 /* TreeNode.swift in Sources */,
 				D6031C912C1682E0005A8947 /* MaxDepth.swift in Sources */,
+				D68448C92C19E12100437959 /* FindingParts.swift in Sources */,
 				D68448C72C19DD8700437959 /* BinarySearch.swift in Sources */,
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
 				D68448B02C07683500437959 /* Knight.swift in Sources */,
