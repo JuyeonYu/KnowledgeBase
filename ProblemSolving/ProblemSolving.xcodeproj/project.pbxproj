@@ -30,6 +30,7 @@
 		D68448C02C15F25700437959 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448BF2C15F25700437959 /* BubbleSort.swift */; };
 		D68448C22C1602C800437959 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C12C1602C800437959 /* InsertionSort.swift */; };
 		D68448C42C1749AE00437959 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C32C1749AE00437959 /* QuickSort.swift */; };
+		D68448C72C19DD8700437959 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68448C62C19DD8700437959 /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		D68448BF2C15F25700437959 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		D68448C12C1602C800437959 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		D68448C32C1749AE00437959 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		D68448C62C19DD8700437959 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		D6031C572C07F452005A8947 /* search */ = {
 			isa = PBXGroup;
 			children = (
+				D68448C52C19DCD000437959 /* BinarySearch */,
 				D6031C882C16729B005A8947 /* BFS */,
 				D6031C892C1672A1005A8947 /* DFS */,
 			);
@@ -200,6 +203,14 @@
 			path = sort;
 			sourceTree = "<group>";
 		};
+		D68448C52C19DCD000437959 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				D68448C62C19DD8700437959 /* BinarySearch.swift */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -273,6 +284,7 @@
 				D6031C8B2C167308005A8947 /* SameTree.swift in Sources */,
 				D6031C8D2C167A9F005A8947 /* TreeNode.swift in Sources */,
 				D6031C912C1682E0005A8947 /* MaxDepth.swift in Sources */,
+				D68448C72C19DD8700437959 /* BinarySearch.swift in Sources */,
 				D64DDE852C04CAB8007A311A /* main.swift in Sources */,
 				D68448B02C07683500437959 /* Knight.swift in Sources */,
 				D6031C532C06AB51005A8947 /* CanPlaceFlower.swift in Sources */,
