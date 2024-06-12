@@ -99,6 +99,4 @@ let root: TreeNode = .init(3)
 
     print("이 트리의 최대 깊이는? ", MaxDepth().solution2(root))
 
-    
-
-
+print("이진 탐색 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 에서 7은 몇번째에 있을까? ", BinarySearch().search(list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], target: 7))
