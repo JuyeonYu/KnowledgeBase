@@ -95,9 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				D68448B72C15E1AB00437959 /* Maze.swift */,
-				D6031C8A2C167308005A8947 /* SameTree.swift */,
-				D6031C8E2C168165005A8947 /* IsSymmetric.swift */,
-				D6031C902C1682E0005A8947 /* MaxDepth.swift */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -105,6 +102,9 @@
 		D6031C892C1672A1005A8947 /* DFS */ = {
 			isa = PBXGroup;
 			children = (
+				D6031C8A2C167308005A8947 /* SameTree.swift */,
+				D6031C8E2C168165005A8947 /* IsSymmetric.swift */,
+				D6031C902C1682E0005A8947 /* MaxDepth.swift */,
 				D6031C5A2C07F47A005A8947 /* Search.swift */,
 				D68448B52C15D0EA00437959 /* Ice.swift */,
 			);
