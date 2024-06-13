@@ -104,3 +104,4 @@ print("부품찾기 [8, 3, 7, 9 ,2] 에서 [5, 7, 9]를 찾아보자", FindingPa
 print("떡볶이 떡만들기 6cm를 [19, 15, 10 ,17] 떡에서 얻으려면 자르는 최대 높이는 ", CuttingRiceCake().solution(target: 6, cakes: [19, 15, 10 ,17]))
 
 print("피보나치 수열 10번째 숫자는 ", Fibonacci().solution(n: 10))
+print("26을 1로 만들기 위한 최소 횟수는", MakeOne().solution(n: 26))
