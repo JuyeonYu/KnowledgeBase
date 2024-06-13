@@ -18,7 +18,7 @@ struct Search {
 
         completion(start)
         
-        graph[start].forEach {
+      list[start].forEach {
             if !visited[$0] {
                 DFS(list: list, start: $0, visited: &visited, completion: completion)
             }

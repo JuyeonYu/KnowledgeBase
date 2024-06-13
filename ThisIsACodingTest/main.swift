@@ -20,7 +20,6 @@ print("5 x 5레서 RRRUDD 하면 현재 위치는 ", LRUD().solution(m: 5, footP
 print("5시 59분 59초까지 3은 ", Time().solution(n: 5))
 print("[1,0,0,0,1,0,0] 꽃밭에 2개는 ", CanPlaceFlower().solution([1,0,0,0,1,0,0], 2))
 print("a1에 서있는 나이트가 이동할 수 있는 경우의 수는 ", Knight().solution(position: "a1"))
-<<<<<<< HEAD
 
 let graph = [
     [], // 0
@@ -103,5 +102,3 @@ let root: TreeNode = .init(3)
 print("이진 탐색 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 에서 7은 몇번째에 있을까? ", BinarySearch().search(list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], target: 7))
 print("부품찾기 [8, 3, 7, 9 ,2] 에서 [5, 7, 9]를 찾아보자", FindingParts().solution(n: 5, ns: [8, 3, 7, 9 ,2], m: 3, ms: [5, 7, 9]))
 print("떡볶이 떡만들기 6cm를 [19, 15, 10 ,17] 떡에서 얻으려면 자르는 최대 높이는 ", CuttingRiceCake().solution(target: 6, cakes: [19, 15, 10 ,17]))
-=======
->>>>>>> e5db87d (implementation - 이코테 Part2 왕실의 나이트)
