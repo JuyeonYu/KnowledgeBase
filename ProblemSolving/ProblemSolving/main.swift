@@ -20,6 +20,7 @@ print("5 x 5레서 RRRUDD 하면 현재 위치는 ", LRUD().solution(m: 5, footP
 print("5시 59분 59초까지 3은 ", Time().solution(n: 5))
 print("[1,0,0,0,1,0,0] 꽃밭에 2개는 ", CanPlaceFlower().solution([1,0,0,0,1,0,0], 2))
 print("a1에 서있는 나이트가 이동할 수 있는 경우의 수는 ", Knight().solution(position: "a1"))
+<<<<<<< HEAD
 
 let graph = [
     [], // 0
@@ -64,6 +65,7 @@ print("버블 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", BubbleSort().sort(data: [
 print("선택 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", SelectionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("삽입 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", InsertionSort().sort(data: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
 print("퀵 정렬 [1, 4, 2, 6, 9, 0, 6, 7, 3] -> ", QuickSort().sort(list: [1, 4, 2, 6, 9, 0, 6, 7, 3]))
+print("계수 정렬 [3, 5, 7, 3, 1, 1, 2, 9, 6] -> ", CountingSort().sort([3, 5, 7, 3, 1, 1, 2, 9, 6]))
 
 var mergeSortedArray1 = [1, 2, 3, 0, 0, 0]
 print("[1, 2, 3, 0, 0, 0]의 앞 3개와 [2, 3, 5]의 앞 3개를 합치고 정렬하면 ", MergeSortedArray().merge(&mergeSortedArray1, 3, [2, 3, 5], 3))
@@ -101,3 +103,5 @@ let root: TreeNode = .init(3)
 print("이진 탐색 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 에서 7은 몇번째에 있을까? ", BinarySearch().search(list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], target: 7))
 print("부품찾기 [8, 3, 7, 9 ,2] 에서 [5, 7, 9]를 찾아보자", FindingParts().solution(n: 5, ns: [8, 3, 7, 9 ,2], m: 3, ms: [5, 7, 9]))
 print("떡볶이 떡만들기 6cm를 [19, 15, 10 ,17] 떡에서 얻으려면 자르는 최대 높이는 ", CuttingRiceCake().solution(target: 6, cakes: [19, 15, 10 ,17]))
+=======
+>>>>>>> e5db87d (implementation - 이코테 Part2 왕실의 나이트)
