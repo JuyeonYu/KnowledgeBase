@@ -105,3 +105,4 @@ print("떡볶이 떡만들기 6cm를 [19, 15, 10 ,17] 떡에서 얻으려면 자
 
 print("피보나치 수열 10번째 숫자는 ", Fibonacci().solution(n: 10))
 print("26을 1로 만들기 위한 최소 횟수는", MakeOne().solution(n: 26))
+print("5까지 켜진 비트 수는 ", CountingBits().solution(n: 5))

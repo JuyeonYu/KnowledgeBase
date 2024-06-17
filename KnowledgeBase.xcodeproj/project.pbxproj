@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6031CB02C1BC1CC005A8947 /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6031CAF2C1BC1CC005A8947 /* CountingBits.swift */; };
 		D68449422C1B2CA300437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491C2C1B2CA300437959 /* Queue.swift */; };
 		D68449432C1B2CA300437959 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491D2C1B2CA300437959 /* TreeNode.swift */; };
 		D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449202C1B2CA300437959 /* CanPlaceFlower.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D6031CAF2C1BC1CC005A8947 /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
 		D68448D52C1B2BED00437959 /* KnowledgeBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnowledgeBase; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684491C2C1B2CA300437959 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D684491D2C1B2CA300437959 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -115,13 +117,6 @@
 				D684491D2C1B2CA300437959 /* TreeNode.swift */,
 			);
 			path = DataStruct;
-			sourceTree = "<group>";
-		};
-		D684491F2C1B2CA300437959 /* DFS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DFS;
 			sourceTree = "<group>";
 		};
 		D68449252C1B2CA300437959 /* greedy */ = {
@@ -211,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				D684495C2C1B2D4300437959 /* DynamicProgramming */,
-				D684491F2C1B2CA300437959 /* DFS */,
 				D68449252C1B2CA300437959 /* greedy */,
 				D68449292C1B2CA300437959 /* implementation */,
 				D68449362C1B2CA300437959 /* search */,
@@ -234,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				D684495F2C1B333500437959 /* MakeOne.swift */,
+				D6031CAF2C1BC1CC005A8947 /* CountingBits.swift */,
 				D68449612C1B3AAF00437959 /* Fibonacci.swift */,
 			);
 			path = DynamicProgramming;
@@ -320,6 +315,7 @@
 				D684494A2C1B2CA300437959 /* LRUD.swift in Sources */,
 				D684494F2C1B2CA300437959 /* FindingParts.swift in Sources */,
 				D684494E2C1B2CA300437959 /* CuttingRiceCake.swift in Sources */,
+				D6031CB02C1BC1CC005A8947 /* CountingBits.swift in Sources */,
 				D68449502C1B2CA300437959 /* Ice.swift in Sources */,
 				D68449622C1B3AAF00437959 /* Fibonacci.swift in Sources */,
 				D68449572C1B2CA300437959 /* InsertionSort.swift in Sources */,
