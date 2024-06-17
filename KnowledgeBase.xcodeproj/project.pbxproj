@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D6031CB02C1BC1CC005A8947 /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6031CAF2C1BC1CC005A8947 /* CountingBits.swift */; };
+		D61594212C1FB63500441CC5 /* PascalTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61594202C1FB63500441CC5 /* PascalTriangle.swift */; };
 		D68449422C1B2CA300437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491C2C1B2CA300437959 /* Queue.swift */; };
 		D68449432C1B2CA300437959 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491D2C1B2CA300437959 /* TreeNode.swift */; };
 		D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449202C1B2CA300437959 /* CanPlaceFlower.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		D6031CAF2C1BC1CC005A8947 /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
+		D61594202C1FB63500441CC5 /* PascalTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalTriangle.swift; sourceTree = "<group>"; };
 		D68448D52C1B2BED00437959 /* KnowledgeBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnowledgeBase; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684491C2C1B2CA300437959 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D684491D2C1B2CA300437959 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				D684495F2C1B333500437959 /* MakeOne.swift */,
 				D6031CAF2C1BC1CC005A8947 /* CountingBits.swift */,
 				D68449612C1B3AAF00437959 /* Fibonacci.swift */,
+				D61594202C1FB63500441CC5 /* PascalTriangle.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				D68449602C1B333500437959 /* MakeOne.swift in Sources */,
 				D684495A2C1B2CA300437959 /* MergeSortedArray.swift in Sources */,
 				D68449462C1B2CA300437959 /* NumberCardGame.swift in Sources */,
+				D61594212C1FB63500441CC5 /* PascalTriangle.swift in Sources */,
 				D684494C2C1B2CA300437959 /* Maze.swift in Sources */,
 				D68449482C1B2CA300437959 /* UntilOne.swift in Sources */,
 				D68449562C1B2CA300437959 /* CountingSort.swift in Sources */,
