@@ -157,3 +157,5 @@ pq.dequeue()
 pq.dequeue()
 pq.dequeue()
 pq.log()
+
+print("최소 숫자를 꺼내는 게임: ", MinimumNumberGame().solution([13,12,18,11,15,28,26,2]))
