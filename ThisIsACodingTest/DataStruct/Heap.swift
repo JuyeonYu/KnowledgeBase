@@ -12,9 +12,7 @@ struct Heap<T: Comparable> {
     var heap: [T] = []
     
     
-    init(element: T, priority: @escaping ((T, T) -> Bool)) {
-        self.heap.append(element)
-        self.heap.append(element)
+    init(priority: @escaping ((T, T) -> Bool)) {
         self.priority = priority
     }
     
