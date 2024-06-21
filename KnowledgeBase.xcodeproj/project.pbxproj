@@ -12,6 +12,7 @@
 		D61594232C1FBDEF00441CC5 /* DivisorGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61594222C1FBDEF00441CC5 /* DivisorGame.swift */; };
 		D61594252C1FC07700441CC5 /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61594242C1FC07700441CC5 /* MinCostClimbingStairs.swift */; };
 		D615942D2C24EDE500441CC5 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D615942C2C24EDE500441CC5 /* Heap.swift */; };
+		D615942F2C24FDBE00441CC5 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D615942E2C24FDBE00441CC5 /* PriorityQueue.swift */; };
 		D68449422C1B2CA300437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491C2C1B2CA300437959 /* Queue.swift */; };
 		D68449432C1B2CA300437959 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491D2C1B2CA300437959 /* TreeNode.swift */; };
 		D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449202C1B2CA300437959 /* CanPlaceFlower.swift */; };
@@ -60,6 +61,7 @@
 		D61594222C1FBDEF00441CC5 /* DivisorGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisorGame.swift; sourceTree = "<group>"; };
 		D61594242C1FC07700441CC5 /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		D615942C2C24EDE500441CC5 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		D615942E2C24FDBE00441CC5 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		D68448D52C1B2BED00437959 /* KnowledgeBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnowledgeBase; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684491C2C1B2CA300437959 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D684491D2C1B2CA300437959 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			children = (
 				D684491C2C1B2CA300437959 /* Queue.swift */,
 				D615942C2C24EDE500441CC5 /* Heap.swift */,
+				D615942E2C24FDBE00441CC5 /* PriorityQueue.swift */,
 				D684491D2C1B2CA300437959 /* TreeNode.swift */,
 			);
 			path = DataStruct;
@@ -345,6 +348,7 @@
 				D61594232C1FBDEF00441CC5 /* DivisorGame.swift in Sources */,
 				D68449422C1B2CA300437959 /* Queue.swift in Sources */,
 				D68449432C1B2CA300437959 /* TreeNode.swift in Sources */,
+				D615942F2C24FDBE00441CC5 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

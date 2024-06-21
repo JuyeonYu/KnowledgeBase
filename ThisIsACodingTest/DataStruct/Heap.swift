@@ -12,9 +12,7 @@ struct Heap<T: Comparable> {
     var heap: [T] = []
     
     
-    init(element: T, priority: @escaping ((T, T) -> Bool)) {
-        self.heap.append(element)
-        self.heap.append(element)
+    init(priority: @escaping ((T, T) -> Bool)) {
         self.priority = priority
     }
     
@@ -77,8 +75,6 @@ struct Heap<T: Comparable> {
         }
     }
     mutating private func diveDown() {
-        heap.swapAt(1, heap.count - 1)
-        
         var currentIndex = 1
         var leftChildIndex = currentIndex * 2
         var rightChildIndex = currentIndex * 2 + 1
