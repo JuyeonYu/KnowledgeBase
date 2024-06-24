@@ -44,6 +44,7 @@
 		D68449622C1B3AAF00437959 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449612C1B3AAF00437959 /* Fibonacci.swift */; };
 		D68449682C29B33F00437959 /* Dikstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449672C29B33F00437959 /* Dikstra.swift */; };
 		D684496A2C29B37E00437959 /* NodePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449692C29B37E00437959 /* NodePriority.swift */; };
+		D684496C2C29BD8900437959 /* FloydWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684496B2C29BD8900437959 /* FloydWarshall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +98,7 @@
 		D68449612C1B3AAF00437959 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		D68449672C29B33F00437959 /* Dikstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikstra.swift; sourceTree = "<group>"; };
 		D68449692C29B37E00437959 /* NodePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodePriority.swift; sourceTree = "<group>"; };
+		D684496B2C29BD8900437959 /* FloydWarshall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloydWarshall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			children = (
 				D68449202C1B2CA300437959 /* CanPlaceFlower.swift */,
 				D68449672C29B33F00437959 /* Dikstra.swift */,
+				D684496B2C29BD8900437959 /* FloydWarshall.swift */,
 				D68449212C1B2CA300437959 /* Changes.swift */,
 				D68449222C1B2CA300437959 /* NumberCardGame.swift */,
 				D68449232C1B2CA300437959 /* RuleOfBigNumber.swift */,
@@ -368,6 +371,7 @@
 				D61594232C1FBDEF00441CC5 /* DivisorGame.swift in Sources */,
 				D68449422C1B2CA300437959 /* Queue.swift in Sources */,
 				D68449432C1B2CA300437959 /* TreeNode.swift in Sources */,
+				D684496C2C29BD8900437959 /* FloydWarshall.swift in Sources */,
 				D615942F2C24FDBE00441CC5 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
