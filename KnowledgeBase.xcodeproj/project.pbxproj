@@ -42,6 +42,8 @@
 		D684495B2C1B2CA300437959 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449402C1B2CA300437959 /* main.swift */; };
 		D68449602C1B333500437959 /* MakeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684495F2C1B333500437959 /* MakeOne.swift */; };
 		D68449622C1B3AAF00437959 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449612C1B3AAF00437959 /* Fibonacci.swift */; };
+		D68449682C29B33F00437959 /* Dikstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449672C29B33F00437959 /* Dikstra.swift */; };
+		D684496A2C29B37E00437959 /* NodePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449692C29B37E00437959 /* NodePriority.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +95,8 @@
 		D68449402C1B2CA300437959 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D684495F2C1B333500437959 /* MakeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOne.swift; sourceTree = "<group>"; };
 		D68449612C1B3AAF00437959 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		D68449672C29B33F00437959 /* Dikstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dikstra.swift; sourceTree = "<group>"; };
+		D68449692C29B37E00437959 /* NodePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodePriority.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 				D615942C2C24EDE500441CC5 /* Heap.swift */,
 				D615942E2C24FDBE00441CC5 /* PriorityQueue.swift */,
 				D684491D2C1B2CA300437959 /* TreeNode.swift */,
+				D68449692C29B37E00437959 /* NodePriority.swift */,
 			);
 			path = DataStruct;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D68449202C1B2CA300437959 /* CanPlaceFlower.swift */,
+				D68449672C29B33F00437959 /* Dikstra.swift */,
 				D68449212C1B2CA300437959 /* Changes.swift */,
 				D68449222C1B2CA300437959 /* NumberCardGame.swift */,
 				D68449232C1B2CA300437959 /* RuleOfBigNumber.swift */,
@@ -348,8 +354,10 @@
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
 				D68449582C1B2CA300437959 /* QuickSort.swift in Sources */,
 				D684494D2C1B2CA300437959 /* BinarySearch.swift in Sources */,
+				D68449682C29B33F00437959 /* Dikstra.swift in Sources */,
 				D615942D2C24EDE500441CC5 /* Heap.swift in Sources */,
 				D68449542C1B2CA300437959 /* Search.swift in Sources */,
+				D684496A2C29B37E00437959 /* NodePriority.swift in Sources */,
 				D684494A2C1B2CA300437959 /* LRUD.swift in Sources */,
 				D684494F2C1B2CA300437959 /* FindingParts.swift in Sources */,
 				D684494E2C1B2CA300437959 /* CuttingRiceCake.swift in Sources */,

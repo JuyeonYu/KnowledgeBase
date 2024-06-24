@@ -159,3 +159,6 @@ pq.dequeue()
 pq.log()
 
 print("최소 숫자를 꺼내는 게임: ", MinimumNumberGame().solution([13,12,18,11,15,28,26,2]))
+
+
+print("1에서 6까지의 최소 거리는 ", Dikstra().solution(start: 1, end: 6))
