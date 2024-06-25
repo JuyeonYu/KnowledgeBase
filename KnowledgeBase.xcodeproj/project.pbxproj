@@ -46,6 +46,8 @@
 		D684496A2C29B37E00437959 /* NodePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449692C29B37E00437959 /* NodePriority.swift */; };
 		D684496C2C29BD8900437959 /* FloydWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684496B2C29BD8900437959 /* FloydWarshall.swift */; };
 		D68449732C2B052900437959 /* 모험가길드.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449722C2B052900437959 /* 모험가길드.swift */; };
+		D68449752C2B091200437959 /* 곱하기혹은더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449742C2B091200437959 /* 곱하기혹은더하기.swift */; };
+		D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +103,8 @@
 		D68449692C29B37E00437959 /* NodePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodePriority.swift; sourceTree = "<group>"; };
 		D684496B2C29BD8900437959 /* FloydWarshall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloydWarshall.swift; sourceTree = "<group>"; };
 		D68449722C2B052900437959 /* 모험가길드.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모험가길드.swift"; sourceTree = "<group>"; };
+		D68449742C2B091200437959 /* 곱하기혹은더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "곱하기혹은더하기.swift"; sourceTree = "<group>"; };
+		D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열뒤집기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 			children = (
 				D68449202C1B2CA300437959 /* CanPlaceFlower.swift */,
 				D68449722C2B052900437959 /* 모험가길드.swift */,
+				D68449742C2B091200437959 /* 곱하기혹은더하기.swift */,
+				D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */,
 				D68449672C29B33F00437959 /* Dikstra.swift */,
 				D684496B2C29BD8900437959 /* FloydWarshall.swift */,
 				D68449212C1B2CA300437959 /* Changes.swift */,
@@ -339,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D68449602C1B333500437959 /* MakeOne.swift in Sources */,
+				D68449752C2B091200437959 /* 곱하기혹은더하기.swift in Sources */,
 				D68449732C2B052900437959 /* 모험가길드.swift in Sources */,
 				D684495A2C1B2CA300437959 /* MergeSortedArray.swift in Sources */,
 				D68449462C1B2CA300437959 /* NumberCardGame.swift in Sources */,
@@ -358,6 +365,7 @@
 				D68449522C1B2CA300437959 /* MaxDepth.swift in Sources */,
 				D68449492C1B2CA300437959 /* Knight.swift in Sources */,
 				D684495B2C1B2CA300437959 /* main.swift in Sources */,
+				D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */,
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
 				D68449582C1B2CA300437959 /* QuickSort.swift in Sources */,
 				D684494D2C1B2CA300437959 /* BinarySearch.swift in Sources */,
