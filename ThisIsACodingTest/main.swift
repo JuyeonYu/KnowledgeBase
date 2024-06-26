@@ -163,4 +163,4 @@ print("최소 숫자를 꺼내는 게임: ", MinimumNumberGame().solution([13,12
 
 print("1에서 6까지의 최소 거리는 ", Dikstra().solution(start: 1, end: 6))
 print("플로이드 워셜 ", FloydWarshall().solution())
-print("물 채우기 ", MaxArea().solution2([1,8,6,2,5,4,8,3,7])) 
+print("물 채우기 ", MaxArea().solution2([1,8,6,2,5,4,8,3,7]))
