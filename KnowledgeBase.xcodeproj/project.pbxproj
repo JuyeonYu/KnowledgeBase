@@ -16,6 +16,7 @@
 		D61594322C25085A00441CC5 /* MinimumNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61594312C25085A00441CC5 /* MinimumNumberGame.swift */; };
 		D62D02402C2B8F1A005470AB /* MaxArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D023F2C2B8F1A005470AB /* MaxArea.swift */; };
 		D62D02422C2B957A005470AB /* MinimumMovingSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D02412C2B957A005470AB /* MinimumMovingSeat.swift */; };
+		D62D02462C2E3A64005470AB /* JumpGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D02452C2E3A64005470AB /* JumpGame2.swift */; };
 		D68449422C1B2CA300437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491C2C1B2CA300437959 /* Queue.swift */; };
 		D68449432C1B2CA300437959 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491D2C1B2CA300437959 /* TreeNode.swift */; };
 		D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449202C1B2CA300437959 /* CanPlaceFlower.swift */; };
@@ -74,6 +75,7 @@
 		D61594312C25085A00441CC5 /* MinimumNumberGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberGame.swift; sourceTree = "<group>"; };
 		D62D023F2C2B8F1A005470AB /* MaxArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxArea.swift; sourceTree = "<group>"; };
 		D62D02412C2B957A005470AB /* MinimumMovingSeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumMovingSeat.swift; sourceTree = "<group>"; };
+		D62D02452C2E3A64005470AB /* JumpGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame2.swift; sourceTree = "<group>"; };
 		D68448D52C1B2BED00437959 /* KnowledgeBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnowledgeBase; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684491C2C1B2CA300437959 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D684491D2C1B2CA300437959 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				D62D023F2C2B8F1A005470AB /* MaxArea.swift */,
 				D68449672C29B33F00437959 /* Dikstra.swift */,
 				D684496B2C29BD8900437959 /* FloydWarshall.swift */,
+				D62D02452C2E3A64005470AB /* JumpGame2.swift */,
 				D68449212C1B2CA300437959 /* Changes.swift */,
 				D68449222C1B2CA300437959 /* NumberCardGame.swift */,
 				D68449232C1B2CA300437959 /* RuleOfBigNumber.swift */,
@@ -360,6 +363,7 @@
 				D684494C2C1B2CA300437959 /* Maze.swift in Sources */,
 				D62D02402C2B8F1A005470AB /* MaxArea.swift in Sources */,
 				D68449482C1B2CA300437959 /* UntilOne.swift in Sources */,
+				D62D02462C2E3A64005470AB /* JumpGame2.swift in Sources */,
 				D68449562C1B2CA300437959 /* CountingSort.swift in Sources */,
 				D68449592C1B2CA300437959 /* SelectionSort.swift in Sources */,
 				D684494B2C1B2CA300437959 /* Time.swift in Sources */,
