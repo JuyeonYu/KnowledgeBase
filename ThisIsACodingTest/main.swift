@@ -165,5 +165,9 @@ print("1에서 6까지의 최소 거리는 ", Dikstra().solution(start: 1, end: 
 print("플로이드 워셜 ", FloydWarshall().solution())
 print("물 채우기 ", MaxArea().solution2([1,8,6,2,5,4,8,3,7]))
 print("주식 ", BestTimeToStock2().solution([7,1,5,3,6,4]))
+print("가스 넣기 ", GasStation().solution([3,3,4], [3,4,4]))
+print("가스 넣기 ", GasStation().solution([2, 3, 4], [3,4,3]))
+print("가스 넣기 ", GasStation().solution([5,8,2,8], [6,5,6,6]))
+print("가스 넣기 ", GasStation().solution([1,2,3,4,5], [3,4,5,1,2]))
 
 print("비트만들기 16", 비트만들기().solution(16))

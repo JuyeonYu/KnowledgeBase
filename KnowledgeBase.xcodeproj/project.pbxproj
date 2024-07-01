@@ -20,6 +20,7 @@
 		D62D02462C2E3A64005470AB /* JumpGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D02452C2E3A64005470AB /* JumpGame2.swift */; };
 		D62D02482C2E3AFA005470AB /* JumpGame1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D02472C2E3AFA005470AB /* JumpGame1.swift */; };
 		D62D024A2C2E3EBC005470AB /* BestTimeToStock2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D02492C2E3EBC005470AB /* BestTimeToStock2.swift */; };
+		D62D024C2C2E4B10005470AB /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D024B2C2E4B10005470AB /* GasStation.swift */; };
 		D68449422C1B2CA300437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491C2C1B2CA300437959 /* Queue.swift */; };
 		D68449432C1B2CA300437959 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491D2C1B2CA300437959 /* TreeNode.swift */; };
 		D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449202C1B2CA300437959 /* CanPlaceFlower.swift */; };
@@ -82,6 +83,7 @@
 		D62D02452C2E3A64005470AB /* JumpGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame2.swift; sourceTree = "<group>"; };
 		D62D02472C2E3AFA005470AB /* JumpGame1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame1.swift; sourceTree = "<group>"; };
 		D62D02492C2E3EBC005470AB /* BestTimeToStock2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToStock2.swift; sourceTree = "<group>"; };
+		D62D024B2C2E4B10005470AB /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		D68448D52C1B2BED00437959 /* KnowledgeBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnowledgeBase; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684491C2C1B2CA300437959 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D684491D2C1B2CA300437959 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				D68449212C1B2CA300437959 /* Changes.swift */,
 				D62D02492C2E3EBC005470AB /* BestTimeToStock2.swift */,
 				D68449222C1B2CA300437959 /* NumberCardGame.swift */,
+				D62D024B2C2E4B10005470AB /* GasStation.swift */,
 				D68449232C1B2CA300437959 /* RuleOfBigNumber.swift */,
 				D68449242C1B2CA300437959 /* UntilOne.swift */,
 				D62D02412C2B957A005470AB /* MinimumMovingSeat.swift */,
@@ -387,6 +390,7 @@
 				D68449522C1B2CA300437959 /* MaxDepth.swift in Sources */,
 				D68449492C1B2CA300437959 /* Knight.swift in Sources */,
 				D62D02422C2B957A005470AB /* MinimumMovingSeat.swift in Sources */,
+				D62D024C2C2E4B10005470AB /* GasStation.swift in Sources */,
 				D684495B2C1B2CA300437959 /* main.swift in Sources */,
 				D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */,
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
