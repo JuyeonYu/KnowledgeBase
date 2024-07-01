@@ -55,6 +55,7 @@
 		D68449732C2B052900437959 /* 모험가길드.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449722C2B052900437959 /* 모험가길드.swift */; };
 		D68449752C2B091200437959 /* 곱하기혹은더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449742C2B091200437959 /* 곱하기혹은더하기.swift */; };
 		D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */; };
+		D684497C2C32E8D200437959 /* RangeSumOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684497B2C32E8D200437959 /* RangeSumOfBST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,7 @@
 		D68449722C2B052900437959 /* 모험가길드.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모험가길드.swift"; sourceTree = "<group>"; };
 		D68449742C2B091200437959 /* 곱하기혹은더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "곱하기혹은더하기.swift"; sourceTree = "<group>"; };
 		D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열뒤집기.swift"; sourceTree = "<group>"; };
+		D684497B2C32E8D200437959 /* RangeSumOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumOfBST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				D68449312C1B2CA300437959 /* IsSymmetric.swift */,
 				D68449322C1B2CA300437959 /* MaxDepth.swift */,
 				D68449332C1B2CA300437959 /* SameTree.swift */,
+				D684497B2C32E8D200437959 /* RangeSumOfBST.swift */,
 				D68449342C1B2CA300437959 /* Search.swift */,
 			);
 			path = DFS;
@@ -410,6 +413,7 @@
 				D68449572C1B2CA300437959 /* InsertionSort.swift in Sources */,
 				D61594232C1FBDEF00441CC5 /* DivisorGame.swift in Sources */,
 				D68449422C1B2CA300437959 /* Queue.swift in Sources */,
+				D684497C2C32E8D200437959 /* RangeSumOfBST.swift in Sources */,
 				D68449432C1B2CA300437959 /* TreeNode.swift in Sources */,
 				D684496C2C29BD8900437959 /* FloydWarshall.swift in Sources */,
 				D615942F2C24FDBE00441CC5 /* PriorityQueue.swift in Sources */,
