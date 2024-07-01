@@ -56,6 +56,7 @@
 		D68449752C2B091200437959 /* 곱하기혹은더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449742C2B091200437959 /* 곱하기혹은더하기.swift */; };
 		D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */; };
 		D684497C2C32E8D200437959 /* RangeSumOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684497B2C32E8D200437959 /* RangeSumOfBST.swift */; };
+		D684497E2C32F37D00437959 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684497D2C32F37D00437959 /* InorderTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +122,7 @@
 		D68449742C2B091200437959 /* 곱하기혹은더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "곱하기혹은더하기.swift"; sourceTree = "<group>"; };
 		D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열뒤집기.swift"; sourceTree = "<group>"; };
 		D684497B2C32E8D200437959 /* RangeSumOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumOfBST.swift; sourceTree = "<group>"; };
+		D684497D2C32F37D00437959 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 				D68449322C1B2CA300437959 /* MaxDepth.swift */,
 				D68449332C1B2CA300437959 /* SameTree.swift */,
 				D684497B2C32E8D200437959 /* RangeSumOfBST.swift */,
+				D684497D2C32F37D00437959 /* InorderTraversal.swift */,
 				D68449342C1B2CA300437959 /* Search.swift */,
 			);
 			path = DFS;
@@ -394,6 +397,7 @@
 				D68449492C1B2CA300437959 /* Knight.swift in Sources */,
 				D62D02422C2B957A005470AB /* MinimumMovingSeat.swift in Sources */,
 				D62D024C2C2E4B10005470AB /* GasStation.swift in Sources */,
+				D684497E2C32F37D00437959 /* InorderTraversal.swift in Sources */,
 				D684495B2C1B2CA300437959 /* main.swift in Sources */,
 				D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */,
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
