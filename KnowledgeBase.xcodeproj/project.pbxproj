@@ -57,6 +57,7 @@
 		D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */; };
 		D684497C2C32E8D200437959 /* RangeSumOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684497B2C32E8D200437959 /* RangeSumOfBST.swift */; };
 		D684497E2C32F37D00437959 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684497D2C32F37D00437959 /* InorderTraversal.swift */; };
+		D68449802C32F41200437959 /* ValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684497F2C32F41200437959 /* ValidBST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -123,6 +124,7 @@
 		D68449762C2B0C4F00437959 /* 문자열뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열뒤집기.swift"; sourceTree = "<group>"; };
 		D684497B2C32E8D200437959 /* RangeSumOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumOfBST.swift; sourceTree = "<group>"; };
 		D684497D2C32F37D00437959 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
+		D684497F2C32F41200437959 /* ValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 				D684497B2C32E8D200437959 /* RangeSumOfBST.swift */,
 				D684497D2C32F37D00437959 /* InorderTraversal.swift */,
 				D68449342C1B2CA300437959 /* Search.swift */,
+				D684497F2C32F41200437959 /* ValidBST.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				D68449482C1B2CA300437959 /* UntilOne.swift in Sources */,
 				D62D02462C2E3A64005470AB /* JumpGame2.swift in Sources */,
 				D68449562C1B2CA300437959 /* CountingSort.swift in Sources */,
+				D68449802C32F41200437959 /* ValidBST.swift in Sources */,
 				D68449592C1B2CA300437959 /* SelectionSort.swift in Sources */,
 				D62D02482C2E3AFA005470AB /* JumpGame1.swift in Sources */,
 				D684494B2C1B2CA300437959 /* Time.swift in Sources */,
