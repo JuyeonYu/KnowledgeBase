@@ -26,4 +26,14 @@ struct ValidBST {
     }
     return true
   }
+  func solution2(_ node: TreeNode?) -> Bool {
+    func isValid(_ node: TreeNode?, low: Int, high: Int) -> Bool {
+      guard let node else { return true }
+      if node.val <= low || node.val >= high {
+        return false
+      }
+      return isValid(node.left, low: low, high: node.val) && isValid(node.right, low: node.val, high: high)
+    }
+    return isValid(node, low: Int.min, high: Int.max)
+  }
 }
