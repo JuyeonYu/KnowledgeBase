@@ -171,3 +171,4 @@ print("가스 넣기 ", GasStation().solution([5,8,2,8], [6,5,6,6]))
 print("가스 넣기 ", GasStation().solution([1,2,3,4,5], [3,4,5,1,2]))
 
 print("비트만들기 16", 비트만들기().solution(16))
+print("위에서 아애로 정렬, ", 위에서아래로().solotion(nums: [12, 2, 10, 33]))
