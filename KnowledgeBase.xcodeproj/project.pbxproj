@@ -64,6 +64,7 @@
 		D6A7086A2E0C4B7B00AD9392 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708692E0C4B7B00AD9392 /* BestTimeToBuyAndSellStock.swift */; };
 		D6A7086C2E0C505200AD9392 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */; };
 		D6A7086E2E0D8AC900AD9392 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */; };
+		D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -137,6 +138,7 @@
 		D6A708692E0C4B7B00AD9392 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
+		D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +332,7 @@
 				D6A708692E0C4B7B00AD9392 /* BestTimeToBuyAndSellStock.swift */,
 				D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */,
 				D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */,
+				D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */,
 			);
 			path = blind75;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				D684497E2C32F37D00437959 /* InorderTraversal.swift in Sources */,
 				D684495B2C1B2CA300437959 /* main.swift in Sources */,
 				D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */,
+				D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */,
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
 				D68449582C1B2CA300437959 /* QuickSort.swift in Sources */,
 				D684494D2C1B2CA300437959 /* BinarySearch.swift in Sources */,
