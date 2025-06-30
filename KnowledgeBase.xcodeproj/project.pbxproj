@@ -65,6 +65,7 @@
 		D6A7086C2E0C505200AD9392 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */; };
 		D6A7086E2E0D8AC900AD9392 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */; };
 		D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */; };
+		D6A708722E1311E800AD9392 /* MaxProductSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,6 +140,7 @@
 		D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
 		D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
+		D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProductSubArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +335,7 @@
 				D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */,
 				D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */,
 				D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */,
+				D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */,
 			);
 			path = blind75;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				D68449552C1B2CA300437959 /* BubbleSort.swift in Sources */,
 				D68449472C1B2CA300437959 /* RuleOfBigNumber.swift in Sources */,
 				D61594252C1FC07700441CC5 /* MinCostClimbingStairs.swift in Sources */,
+				D6A708722E1311E800AD9392 /* MaxProductSubArray.swift in Sources */,
 				D62D024A2C2E3EBC005470AB /* BestTimeToStock2.swift in Sources */,
 				D68449522C1B2CA300437959 /* MaxDepth.swift in Sources */,
 				D68449492C1B2CA300437959 /* Knight.swift in Sources */,
