@@ -69,6 +69,7 @@
 		D6A708742E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */; };
 		D6A708762E1575A500AD9392 /* SearchRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */; };
 		D6A708782E157C2100AD9392 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708772E157C2100AD9392 /* ThreeSum.swift */; };
+		D6A7087A2E1D59EA00AD9392 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708792E1D59EA00AD9392 /* ContainerWithMostWater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -147,6 +148,7 @@
 		D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRatatedSRotedArray.swift; sourceTree = "<group>"; };
 		D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRotatedSortedArray.swift; sourceTree = "<group>"; };
 		D6A708772E157C2100AD9392 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		D6A708792E1D59EA00AD9392 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +347,7 @@
 				D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */,
 				D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */,
 				D6A708772E157C2100AD9392 /* ThreeSum.swift */,
+				D6A708792E1D59EA00AD9392 /* ContainerWithMostWater.swift */,
 			);
 			path = blind75;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				D68449582C1B2CA300437959 /* QuickSort.swift in Sources */,
 				D684494D2C1B2CA300437959 /* BinarySearch.swift in Sources */,
 				D68449682C29B33F00437959 /* Dikstra.swift in Sources */,
+				D6A7087A2E1D59EA00AD9392 /* ContainerWithMostWater.swift in Sources */,
 				D615942D2C24EDE500441CC5 /* Heap.swift in Sources */,
 				D68449542C1B2CA300437959 /* Search.swift in Sources */,
 				D684496A2C29B37E00437959 /* NodePriority.swift in Sources */,
