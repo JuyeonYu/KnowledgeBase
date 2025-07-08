@@ -66,6 +66,7 @@
 		D6A7086E2E0D8AC900AD9392 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */; };
 		D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */; };
 		D6A708722E1311E800AD9392 /* MaxProductSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */; };
+		D6A708742E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */; };
 		D6A708782E157C2100AD9392 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708772E157C2100AD9392 /* ThreeSum.swift */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,7 @@
 		D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
 		D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
 		D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProductSubArray.swift; sourceTree = "<group>"; };
+		D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRatatedSRotedArray.swift; sourceTree = "<group>"; };
 		D6A708772E157C2100AD9392 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -338,6 +340,7 @@
 				D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */,
 				D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */,
 				D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */,
+				D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */,
 				D6A708772E157C2100AD9392 /* ThreeSum.swift */,
 			);
 			path = blind75;
@@ -446,6 +449,7 @@
 				D68449542C1B2CA300437959 /* Search.swift in Sources */,
 				D684496A2C29B37E00437959 /* NodePriority.swift in Sources */,
 				D684494A2C1B2CA300437959 /* LRUD.swift in Sources */,
+				D6A708742E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift in Sources */,
 				D684494F2C1B2CA300437959 /* FindingParts.swift in Sources */,
 				D684494E2C1B2CA300437959 /* CuttingRiceCake.swift in Sources */,
 				D6031CB02C1BC1CC005A8947 /* CountingBits.swift in Sources */,
