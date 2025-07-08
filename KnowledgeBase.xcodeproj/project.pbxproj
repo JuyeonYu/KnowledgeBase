@@ -67,6 +67,7 @@
 		D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */; };
 		D6A708722E1311E800AD9392 /* MaxProductSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */; };
 		D6A708742E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */; };
+		D6A708762E1575A500AD9392 /* SearchRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */; };
 		D6A708782E157C2100AD9392 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708772E157C2100AD9392 /* ThreeSum.swift */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +145,7 @@
 		D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
 		D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProductSubArray.swift; sourceTree = "<group>"; };
 		D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRatatedSRotedArray.swift; sourceTree = "<group>"; };
+		D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRotatedSortedArray.swift; sourceTree = "<group>"; };
 		D6A708772E157C2100AD9392 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -341,6 +343,7 @@
 				D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */,
 				D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */,
 				D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */,
+				D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */,
 				D6A708772E157C2100AD9392 /* ThreeSum.swift */,
 			);
 			path = blind75;
@@ -425,6 +428,7 @@
 				D684494B2C1B2CA300437959 /* Time.swift in Sources */,
 				D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */,
 				D68449532C1B2CA300437959 /* SameTree.swift in Sources */,
+				D6A708762E1575A500AD9392 /* SearchRotatedSortedArray.swift in Sources */,
 				D68449512C1B2CA300437959 /* IsSymmetric.swift in Sources */,
 				D6A7086A2E0C4B7B00AD9392 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				D68449552C1B2CA300437959 /* BubbleSort.swift in Sources */,
