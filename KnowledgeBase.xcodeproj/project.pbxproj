@@ -70,6 +70,7 @@
 		D6A708782E157C2100AD9392 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708772E157C2100AD9392 /* ThreeSum.swift */; };
 		D6A7087A2E1D59EA00AD9392 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A708792E1D59EA00AD9392 /* ContainerWithMostWater.swift */; };
 		D6A7087C2E1D629F00AD9392 /* SumOfTwoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */; };
+		D6A7E94A2E6882D000F2C2FB /* VaildParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7E9492E6882D000F2C2FB /* VaildParentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +150,7 @@
 		D6A708772E157C2100AD9392 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		D6A708792E1D59EA00AD9392 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoInt.swift; sourceTree = "<group>"; };
+		D6A7E9492E6882D000F2C2FB /* VaildParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaildParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 				D6A708772E157C2100AD9392 /* ThreeSum.swift */,
 				D6A708792E1D59EA00AD9392 /* ContainerWithMostWater.swift */,
 				D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */,
+				D6A7E9492E6882D000F2C2FB /* VaildParentheses.swift */,
 			);
 			path = blind75;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				D6A7086E2E0D8AC900AD9392 /* ProductExceptSelf.swift in Sources */,
 				D684497E2C32F37D00437959 /* InorderTraversal.swift in Sources */,
 				D684495B2C1B2CA300437959 /* main.swift in Sources */,
+				D6A7E94A2E6882D000F2C2FB /* VaildParentheses.swift in Sources */,
 				D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */,
 				D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */,
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
