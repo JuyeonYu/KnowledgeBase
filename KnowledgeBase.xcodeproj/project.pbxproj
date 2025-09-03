@@ -22,6 +22,7 @@
 		D62D024A2C2E3EBC005470AB /* BestTimeToStock2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D02492C2E3EBC005470AB /* BestTimeToStock2.swift */; };
 		D62D024C2C2E4B10005470AB /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D024B2C2E4B10005470AB /* GasStation.swift */; };
 		D63AAC862E689CD000A4BC09 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC852E689CD000A4BC09 /* ReverseBits.swift */; };
+		D63AAC882E689E1600A4BC09 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC872E689E1600A4BC09 /* ReverseLinkedList.swift */; };
 		D68027AD2CCFD12700514680 /* 위에서아래로.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68027AC2CCFD12700514680 /* 위에서아래로.swift */; };
 		D68449422C1B2CA300437959 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491C2C1B2CA300437959 /* Queue.swift */; };
 		D68449432C1B2CA300437959 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684491D2C1B2CA300437959 /* TreeNode.swift */; };
@@ -107,6 +108,7 @@
 		D62D02492C2E3EBC005470AB /* BestTimeToStock2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToStock2.swift; sourceTree = "<group>"; };
 		D62D024B2C2E4B10005470AB /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		D63AAC852E689CD000A4BC09 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
+		D63AAC872E689E1600A4BC09 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		D68027AC2CCFD12700514680 /* 위에서아래로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위에서아래로.swift"; sourceTree = "<group>"; };
 		D68448D52C1B2BED00437959 /* KnowledgeBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnowledgeBase; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684491C2C1B2CA300437959 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -369,6 +371,7 @@
 				D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */,
 				D6A7E9512E68911600F2C2FB /* ValidPalindrome.swift */,
 				D63AAC852E689CD000A4BC09 /* ReverseBits.swift */,
+				D63AAC872E689E1600A4BC09 /* ReverseLinkedList.swift */,
 			);
 			path = blind75;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				D68449502C1B2CA300437959 /* Ice.swift in Sources */,
 				D6A7E9522E68911600F2C2FB /* ValidPalindrome.swift in Sources */,
 				D6A708682E0C43FA00AD9392 /* TwoSum.swift in Sources */,
+				D63AAC882E689E1600A4BC09 /* ReverseLinkedList.swift in Sources */,
 				D62111142C32224700C5EA68 /* 비트만들기.swift in Sources */,
 				D68449622C1B3AAF00437959 /* Fibonacci.swift in Sources */,
 				D68449572C1B2CA300437959 /* InsertionSort.swift in Sources */,
