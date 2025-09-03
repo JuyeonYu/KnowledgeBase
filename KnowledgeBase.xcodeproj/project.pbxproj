@@ -72,6 +72,7 @@
 		D6A7087C2E1D629F00AD9392 /* SumOfTwoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */; };
 		D6A7E94A2E6882D000F2C2FB /* VaildParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7E9492E6882D000F2C2FB /* VaildParentheses.swift */; };
 		D6A7E94C2E6885C200F2C2FB /* MergeTwoSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7E94B2E6885C200F2C2FB /* MergeTwoSortedList.swift */; };
+		D6A7E94E2E688B7C00F2C2FB /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7E94D2E688B7C00F2C2FB /* ClimbingStairs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,6 +154,7 @@
 		D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoInt.swift; sourceTree = "<group>"; };
 		D6A7E9492E6882D000F2C2FB /* VaildParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaildParentheses.swift; sourceTree = "<group>"; };
 		D6A7E94B2E6885C200F2C2FB /* MergeTwoSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedList.swift; sourceTree = "<group>"; };
+		D6A7E94D2E688B7C00F2C2FB /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +347,7 @@
 				D6A7E9492E6882D000F2C2FB /* VaildParentheses.swift */,
 				D6A7E94B2E6885C200F2C2FB /* MergeTwoSortedList.swift */,
 				D6A708692E0C4B7B00AD9392 /* BestTimeToBuyAndSellStock.swift */,
+				D6A7E94D2E688B7C00F2C2FB /* ClimbingStairs.swift */,
 				D6A7086B2E0C505200AD9392 /* ContainsDuplicate.swift */,
 				D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */,
 				D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */,
@@ -454,6 +457,7 @@
 				D684495B2C1B2CA300437959 /* main.swift in Sources */,
 				D6A7E94A2E6882D000F2C2FB /* VaildParentheses.swift in Sources */,
 				D68449772C2B0C4F00437959 /* 문자열뒤집기.swift in Sources */,
+				D6A7E94E2E688B7C00F2C2FB /* ClimbingStairs.swift in Sources */,
 				D6A708702E0D90AD00AD9392 /* MaxSubArray.swift in Sources */,
 				D68449452C1B2CA300437959 /* Changes.swift in Sources */,
 				D68449582C1B2CA300437959 /* QuickSort.swift in Sources */,
