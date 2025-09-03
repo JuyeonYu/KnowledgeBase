@@ -178,3 +178,4 @@ let node1 = ListNode.init(1, .init(2, .init(4)))
 let node2 = ListNode.init(1, .init(3, .init(4)))
 
 print("두 노드르 정렬하면 \(MergeTwoSortedList().solution(node1, node2))")
+print("A man, a plan, a canal: Panama는 앞으로 읽어도 뒤로 잃어도 같다? \(ValidPalindrome().solution("A man, a plan, a canal: Panama"))")

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class VaildParentheses {
+class ValidParentheses {
   func solution(_ s: String) -> Bool {
     var stack: [Character] = []
     let openers: Set<Character> = ["(", "[", "{"]
