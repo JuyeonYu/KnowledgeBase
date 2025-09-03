@@ -173,3 +173,8 @@ print("가스 넣기 ", GasStation().solution([1,2,3,4,5], [3,4,5,1,2]))
 print("비트만들기 16", 비트만들기().solution(16))
 print("위에서 아애로 정렬, ", 위에서아래로().solotion(nums: [12, 2, 10, 33]))
 print("3, 5 두 정수의 합: \(SumOfTwoInt().solution(3, 5))")
+
+let node1 = ListNode.init(1, .init(2, .init(4)))
+let node2 = ListNode.init(1, .init(3, .init(4)))
+
+print("두 노드르 정렬하면 \(MergeTwoSortedList().solution(node1, node2))")
