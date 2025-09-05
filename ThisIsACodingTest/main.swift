@@ -181,3 +181,4 @@ print("두 노드르 정렬하면 \(MergeTwoSortedList().solution(node1, node2))
 print("A man, a plan, a canal: Panama는 앞으로 읽어도 뒤로 잃어도 같다? \(ValidPalindrome().solution("A man, a plan, a canal: Panama"))")
 
 print("combination sum: [2,3,5,6] = 7 / \(CombinationSum().solution([2,3,5,6], 7))")
+print("spiral matrix: \(SpiralMatrix().solution([[1,2,3],[4,5,6],[7,8,9]]))")

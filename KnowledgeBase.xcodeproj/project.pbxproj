@@ -24,6 +24,10 @@
 		D63AAC862E689CD000A4BC09 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC852E689CD000A4BC09 /* ReverseBits.swift */; };
 		D63AAC882E689E1600A4BC09 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC872E689E1600A4BC09 /* ReverseLinkedList.swift */; };
 		D63AAC8A2E68A04E00A4BC09 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC892E68A04E00A4BC09 /* InvertBinaryTree.swift */; };
+		D63AAC8C2E6B05BF00A4BC09 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC8B2E6B05BF00A4BC09 /* RotateImage.swift */; };
+		D63AAC8E2E6B06D900A4BC09 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC8D2E6B06D900A4BC09 /* GroupAnagrams.swift */; };
+		D63AAC902E6B07A700A4BC09 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC8F2E6B07A700A4BC09 /* SpiralMatrix.swift */; };
+		D63AAC922E6B0AAD00A4BC09 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AAC912E6B0AAD00A4BC09 /* MergeIntervals.swift */; };
 		D68027AD2CCFD12700514680 /* 위에서아래로.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68027AC2CCFD12700514680 /* 위에서아래로.swift */; };
 		D6808F332E6A706A0024C25F /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6808F322E6A706A0024C25F /* RemoveNthNodeFromEndOfList.swift */; };
 		D6808F352E6A75D60024C25F /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6808F342E6A75D60024C25F /* CombinationSum.swift */; };
@@ -120,6 +124,10 @@
 		D63AAC852E689CD000A4BC09 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
 		D63AAC872E689E1600A4BC09 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		D63AAC892E68A04E00A4BC09 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
+		D63AAC8B2E6B05BF00A4BC09 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		D63AAC8D2E6B06D900A4BC09 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		D63AAC8F2E6B07A700A4BC09 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
+		D63AAC912E6B0AAD00A4BC09 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		D68027AC2CCFD12700514680 /* 위에서아래로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위에서아래로.swift"; sourceTree = "<group>"; };
 		D6808F322E6A706A0024C25F /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
 		D6808F342E6A75D60024C25F /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
@@ -399,8 +407,12 @@
 				D6808F322E6A706A0024C25F /* RemoveNthNodeFromEndOfList.swift */,
 				D6A708752E1575A500AD9392 /* SearchRotatedSortedArray.swift */,
 				D6808F342E6A75D60024C25F /* CombinationSum.swift */,
-				D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */,
+				D63AAC8B2E6B05BF00A4BC09 /* RotateImage.swift */,
+				D63AAC8D2E6B06D900A4BC09 /* GroupAnagrams.swift */,
 				D6A7086F2E0D90AD00AD9392 /* MaxSubArray.swift */,
+				D6A7086D2E0D8AC900AD9392 /* ProductExceptSelf.swift */,
+				D63AAC8F2E6B07A700A4BC09 /* SpiralMatrix.swift */,
+				D63AAC912E6B0AAD00A4BC09 /* MergeIntervals.swift */,
 				D6A708712E1311E800AD9392 /* MaxProductSubArray.swift */,
 				D6A708732E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift */,
 				D6A7087B2E1D629F00AD9392 /* SumOfTwoInt.swift */,
@@ -482,12 +494,14 @@
 				D6A7086C2E0C505200AD9392 /* ContainsDuplicate.swift in Sources */,
 				D697EC1A2E69198000CFE07A /* SameTree1.swift in Sources */,
 				D62D02462C2E3A64005470AB /* JumpGame2.swift in Sources */,
+				D63AAC922E6B0AAD00A4BC09 /* MergeIntervals.swift in Sources */,
 				D68449562C1B2CA300437959 /* CountingSort.swift in Sources */,
 				D68449802C32F41200437959 /* ValidBST.swift in Sources */,
 				D68449592C1B2CA300437959 /* SelectionSort.swift in Sources */,
 				D62D02482C2E3AFA005470AB /* JumpGame1.swift in Sources */,
 				D684494B2C1B2CA300437959 /* Time.swift in Sources */,
 				D68449442C1B2CA300437959 /* CanPlaceFlower.swift in Sources */,
+				D63AAC8C2E6B05BF00A4BC09 /* RotateImage.swift in Sources */,
 				D68449532C1B2CA300437959 /* SameTree.swift in Sources */,
 				D6A708762E1575A500AD9392 /* SearchRotatedSortedArray.swift in Sources */,
 				D68449512C1B2CA300437959 /* IsSymmetric.swift in Sources */,
@@ -526,6 +540,7 @@
 				D6A708742E13140100AD9392 /* FindMinimumInRatatedSRotedArray.swift in Sources */,
 				D684494F2C1B2CA300437959 /* FindingParts.swift in Sources */,
 				D697EC262E6925F600CFE07A /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
+				D63AAC902E6B07A700A4BC09 /* SpiralMatrix.swift in Sources */,
 				D697EC222E691E7000CFE07A /* CountingBits1.swift in Sources */,
 				D6A7E9502E688F0E00F2C2FB /* MaximumDepthOfBinaryTree.swift in Sources */,
 				D684494E2C1B2CA300437959 /* CuttingRiceCake.swift in Sources */,
@@ -533,6 +548,7 @@
 				D68449502C1B2CA300437959 /* Ice.swift in Sources */,
 				D6A7E9522E68911600F2C2FB /* ValidPalindrome.swift in Sources */,
 				D6A708682E0C43FA00AD9392 /* TwoSum.swift in Sources */,
+				D63AAC8E2E6B06D900A4BC09 /* GroupAnagrams.swift in Sources */,
 				D63AAC882E689E1600A4BC09 /* ReverseLinkedList.swift in Sources */,
 				D62111142C32224700C5EA68 /* 비트만들기.swift in Sources */,
 				D6808F352E6A75D60024C25F /* CombinationSum.swift in Sources */,

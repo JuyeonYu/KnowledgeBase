@@ -8,11 +8,11 @@
 import Foundation
 
 class SubtreeOfAnotherTree {
-    func solution(_ root: TreeNode?, _ sub: TreeNode?) -> Bool {
-        guard sub != nil else { return false }
+    func solution(_ root: TreeNode?, _ subRoot: TreeNode?) -> Bool {
+        guard subRoot != nil else { return false }
         guard let root else { return false }
         if isSame(root.left, root.right) { return true }
-        return solution(root.left, sub) || solution(root.right, sub)
+        return solution(root.left, subRoot) || solution(root.right, subRoot)
     }
     
     func isSame(_ a: TreeNode?, _ b: TreeNode?) -> Bool {
